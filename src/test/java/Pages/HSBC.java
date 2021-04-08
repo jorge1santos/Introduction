@@ -34,7 +34,7 @@ public class HSBC {
 		firstname.click();
 		firstname.sendKeys("Jorge");
 		Utilerias2.getInstance(driver).sleepseconds(3);
-		driver.close();
+		//driver.close();
 	}
 
 }
